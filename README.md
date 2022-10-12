@@ -1,5 +1,5 @@
 # SMFM-master
-The tool is developed for enhancer sequences identification using Stacked Multivariate Fusion Framework (SMFM) 
+The repository is developed for enhancer sequences identification using Stacked Multivariate Fusion Framework (SMFM) 
 
 # Requirements
 - python == 3.6.2
