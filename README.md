@@ -25,13 +25,13 @@ You can extract dynamic semantic information by following a few steps:
 >***3)*** pip install requirement.txt.  
 
 Revise the path where the EnhancerBERT locate and run extract_information.py
-After running extract_information.py, the progress of learning implicit relations and long-distance dependicies can be performed by running dl_based_sequence_network.py
+After running *__extract_information.py__*, the progress of learning implicit relations and long-distance dependicies can be performed by running *__dl_based_sequence_network.py__*
 Finally you can get a .npy file when you have finished the whole process
 
 ## Generate multi-source biological features
 You can generate multi-source biological features by following a few steps:
 
-- Activate the virtual environment described above and run the multi-source_biological_features.py.
+- Activate the virtual environment described above and run the *__multi-source_biological_features.py__*.
 - When run the code, you should be aware of the following points:
 
 >***1)*** The sequences should be strored as a .fasta or a .txt file.  
@@ -39,4 +39,4 @@ You can generate multi-source biological features by following a few steps:
 >***3)*** After the code has finished running, the features will be store as a .csv file, and please upload the fulldataset instead of optimumdataset.
 
 ## Predict sequences using dynamic semantic information and multi-source biological features 
-Run ensemble_classification.py to get the prediction results for the sequences.
+Run *__ensemble_classification.py__* to get the prediction results for the sequences.
